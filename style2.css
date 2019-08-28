@@ -1,0 +1,114 @@
+body{
+	overflow:auto;
+}
+.top-bar{
+	background-color:#007568;
+	padding-top:8px;
+}
+
+.my-menu{
+	margin-top:10px;
+}
+
+.my-menu .navbar-default{
+	background:none;
+	border:none;
+	padding:10px;
+}
+
+.my-menu .navbar-nav .active a{
+	background-color:#770088!important;
+	color:yellowgreen !important;
+	font-size:17px;
+}
+
+.my-menu .navbar-nav li a:hover{
+	background-color:#E673F1!important;
+	color:#0A8700 !important;
+	font-size:17px;
+}
+
+/*FIRST BLOCK*/
+.bg-grey{
+    background-color:grey;
+	color:white;
+	height:420px;
+	padding:25px;
+	overflow:auto;
+}
+
+/*SECOND BLOCK*/
+.bg-cream{
+	background-color:#FEFFBF;
+	color:grey;
+	height:420px;
+	padding:15px;
+	overflow:auto;
+}
+
+.form-control{
+	margin:5px;
+}
+
+/*ABOUT US BACKGROUND LIGHT WHITE*/
+.bg-white{
+	background-color:white;
+	font-family:comic sans ms;
+	font-variant:small-caps;
+}
+.bg-white h2{
+	padding-left:25px;
+	
+}
+.bg-white p{
+	padding-left:65px;
+	font-size:20px;
+	color:black;
+}
+
+/*PHOTOGALLERY MAIN DOCUMENT*/
+.bg-gallery{
+	height:auto;
+	background-color:#92FE00;
+	color:#490100;
+	font-family:comic sans ms;
+	font-weight:bolder;
+	padding:10px;
+}
+
+/* CREATING SOCIAL MEDIA BUTTONS	*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 35px 12px;
+  border-radius: 50%;
+  
+}
+
+.fa:hover {
+    opacity: 0.7;
+	text-decoration:none;
+	color:white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-instagram {
+  background: #490100;
+  color: white;
+}
